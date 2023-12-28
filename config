@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:/Dmitry19851991/NewsPortal.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "github"]
+	url = git@github.com:/Dmitry19851991/newsPortal000.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "NewsPortal000"]
+	url = git@github.com:/Dmitry19851991/PortalNEWS.git
+	fetch = +refs/heads/*:refs/remotes/NewsPortal000/*
+[remote "git"]
+	url = git@github.com:/Dmitry19851991/PortalNews000.git
+	fetch = +refs/heads/*:refs/remotes/git/*
